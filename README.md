@@ -1,4 +1,4 @@
-# TGBR_NET_ANALYZER
+# TGBR NETWORK ANALYZER
 Analisador de Rede Doméstica - Detecção de possíveis abusos de ISP e possíveis soluções
 Script interativo e autônomo para análise de segurança da rede doméstica. 
 Executa varreduras, coleta informações de serviços e dispositivos conectados, detecta riscos possíveis e gera relatórios estruturados.
