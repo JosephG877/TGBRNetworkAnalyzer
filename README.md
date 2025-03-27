@@ -24,7 +24,7 @@ Linguagem Bash com chamadas Perl.
 
 ---
 
-[==Requisitos==}
+[==Requisitoss==}
 
 - GNU/Linux com Bash
 - Ferramentas recomendadas:
@@ -43,3 +43,62 @@ Linguagem Bash com chamadas Perl.
 Tornar script executável:
 ```bash
 chmod +x tgbr_net_analyzer.sh
+```
+--------------------------------------------------------------------------------------------------------------------------------------
+
+# TGBR NETWORK ANALYZER
+Home Network Analyzer - Detection of possible ISP abuse and possible solutions. Interactive and autonomous script for home network security analysis. 
+Performs scans, collects information from services and connected devices, detects possible risks and generates structured reports.
+Bash language with Perl calls.
+
+---
+
+[==Functionalities==]
+
+-> Detection of local IP, gateway and DNS servers;
+-> Double NAT presence check;
+-> Discovery of active devices on the network; 
+-> OS/manufacturer identification (OS fingerprinting);
+-> Port and service scanning on the local router;
+-> Automated risk analysis;
+-> Suggestion of commands to mitigate damage;
+-> DNS traffic capture for a limited time (50s);
+-> Check for possible ARP conflicts (spoofing);
+-> Public IP lookup (optional);
+-> Report generation:
+  - `relatorio_rede.md` 
+  - `relatorio_rede.json` 
+
+---
+
+[==Requirements==}
+
+- GNU/Linux with Bash
+- Recommended tools:
+  -> `nmap`
+  -> `tcpdump`
+  -> `arp`
+  -> `arp-scan` 
+  -> `curl`
+  -> `timeout`
+  -> `perl`
+
+
+---
+
+[==Program usage==]
+
+Make script executable:
+```bash
+chmod +x tgbr_net_analyzer.sh
+```
+
+
+
+
+
+
+
+
+
+
